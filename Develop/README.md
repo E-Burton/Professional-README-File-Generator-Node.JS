@@ -1,5 +1,4 @@
-# README.md Generator
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README.md Generator [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
   
@@ -25,11 +24,11 @@
   
   ## License
   
-  Apache License {align:center}
-Version 2.0, January 2004 {align:center}
-http://www.apache.org/licenses/ {align:center}
+<p align="center"> Apache License </p>
+<p align="center"> Version 2.0, January 2004 </p>
+<p align="center"> http://www.apache.org/licenses/ </p>
 
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION {align:center}
+<p align="center"> TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION </p>
 
    1. Definitions.
 
@@ -239,5 +238,5 @@ END OF TERMS AND CONDITIONS {align:center}
   
   If you have any additional questions please send them via my email listed below. <br>
   <br>
-  GitHub: https://github.com/E-Burton              Email: edwina.anotoinette@gmail.com
+  GitHub: https://github.com/E-Burton  [tab][space] Email: edwina.anotoinette@gmail.com
 
