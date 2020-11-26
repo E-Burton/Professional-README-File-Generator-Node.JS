@@ -1,52 +1,60 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const util = require("util");
+const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
+const Choice = require("inquirer/lib/objects/choice");
 
 // array of questions for user
 const questions = [
     {
-        label: "title",
+        type: "input",
+        name: "title",
         message: "What is the title for your application?"
     },
     {
-        label: "description",
+        type: "input",
+        name: "description",
         message: "Give a descirption for your application."
     },
     {
-        label: "tableOfContents",
-        message: "List items for your Table of Contents." 
-    },
-    {
-        label: "installation",
+        type: "input",
+        name: "installation",
         message: "What instructions are needed for installaiton?"
     },
     {
-        label: "usage",
+        type: "input",
+        name: "usage",
         message: "Notate any usage information needed."
     },
     {
-        label: "license",
-        message: "What licenses would you like to include?"
+        type: "list",
+        name: "license",
+        message: "What licenses would you like to include?",
+        choices: ["Apache License 2.0", "GNU General Public License v3.0", "MIT License", "ISC License"]
     },
     {
-        label: "contributing",
+        type: "input",
+        name: "contributing",
         message: "What are the contribution guidelines?"
     } ,
     {
-        label: "tests",
+        type: "input",
+        name: "tests",
         message: "What are the testing instructions?"
     },
     {
-        label: "username",
+        type: "input",
+        name: "username",
         message: "What is your GitHub username?"
     },
     {
-        label: "email",
+        type: "input",
+        name: "email",
         message: "What is your email address?"
     },
     {
-        label: "questions",
+        type: "input",
+        name: "questions",
         message: "Provide instructions on how you can be reached for additional questions."
     }
 
@@ -54,24 +62,16 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-    util.promisify(fs.writeFile)
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
-// function to initialize program
 function init() {
-    questions.forEach(question => {
-        inquirer.prompt([
-            {
-                type: "input",
-                name: question.label,
-                message: question.message,
-            }
-        ])
-    })
+    inquirer.prompt(questions)
+        .then((inquirerResponses) => {
+            writeToFile("README.md", generateMarkdown({...inquirerResponses}))
+        })
 }
 
 // function call to initialize program
 init()
-    .then((writeToFile("TestREADME.md", generateMarkdown(data)))
-    .then(() => console.log("Successfully wrote to TestREADME.md"))
-    .catch((err) => console.log(err));
+    
