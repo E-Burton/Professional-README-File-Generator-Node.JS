@@ -46,7 +46,9 @@ The following video demonstrates the functionality of the README generator:
 
 ## Additional Resources used for Finished Application
 
-[Getting Started with Markdown](https://github.com/fefong/markdown_readme)
-[Choosing a License](https://choosealicense.com/)
-[Markdown Licenses Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+* [Getting Started with Markdown](https://github.com/fefong/markdown_readme)
+* [Choosing a License](https://choosealicense.com/)
+* [Markdown Licenses Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+* [Require File as String](https://stackoverflow.com/questions/12752622/require-file-as-string)
+* [`path.resolve()` Method](https://www.geeksforgeeks.org/node-js-path-resolve-method/)
 
