@@ -1,10 +1,11 @@
+// Variable Declarations
 const inquirer = require("inquirer");
 const fs = require("fs");
 const path = require("path");
 const generateMarkdown = require("./utils/generateMarkdown");
 const Choice = require("inquirer/lib/objects/choice");
 
-// array of questions for user
+// Array of questions for user
 const questions = [
     {
         type: "input",
@@ -60,18 +61,26 @@ const questions = [
 
 ];
 
-// function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
+    // Get the current working directly of the node.js process and join path with fileName to write data to file
     return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
 function init() {
+    // Use objects from questions array to prompt user
     inquirer.prompt(questions)
+        // Then call function with inquireResponses as parameter
         .then((inquirerResponses) => {
+            // Call writeToFile function passing "README.md" and function generateMarkdown(...inquireResponses) as parameters
             writeToFile("README.md", generateMarkdown({...inquirerResponses}))
         })
+        // Then call function, which logs if application successfully wrote to README.md
+        .then(() => console.log("Successfully wrote to README.md"))
+        // Log any errors to the console
+        .catch((err) => console.log(err))
 }
 
-// function call to initialize program
+// Function call to initialize program
 init()
     

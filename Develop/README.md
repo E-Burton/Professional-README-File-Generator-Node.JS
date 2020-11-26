@@ -28,7 +28,6 @@
 Apache License <br>
 Version 2.0, January 2004 <br>
 http://www.apache.org/licenses/ </p>
-<p align="center"> </p>
 
 <p align="center"> TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION </p>
 

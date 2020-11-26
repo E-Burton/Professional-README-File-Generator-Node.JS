@@ -1,18 +1,16 @@
-// function to generate markdown for README
-
+// Variable Declarations
 const fs = require('fs')
 const path = require('path')
 
 const apache = fs.readFileSync(path.resolve("../Develop/Licenses", 'Apache.txt'), 'utf8');
-
 const gnu = fs.readFileSync(path.resolve("../Develop/Licenses", 'GNU.txt'), 'utf8');
-
 const isc = fs.readFileSync(path.resolve("../Develop/Licenses", 'ISC.txt'), 'utf8');
-
 const mit = fs.readFileSync(path.resolve("../Develop/Licenses", 'MIT.txt'), 'utf8');
 
+// Function to generate markdown for README
 function generateMarkdown(data) {
 
+  // Evaluate value of data.license and apply appropriate url value for badge variable and set value of text variale to corresponding license text file variable
   if (data.license === "Apache License 2.0") {
     badge = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     text = apache;
@@ -27,8 +25,7 @@ function generateMarkdown(data) {
     text = isc;
   }
 
-  return `# ${data.title}
-  ${badge}
+  return `# ${data.title} ${badge}
 
   ## Description
   

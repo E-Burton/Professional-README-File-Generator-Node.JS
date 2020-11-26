@@ -52,4 +52,5 @@ The following video demonstrates the functionality of the README generator:
 * [Require File as String](https://stackoverflow.com/questions/12752622/require-file-as-string)
 * [`path.resolve()` Method](https://www.geeksforgeeks.org/node-js-path-resolve-method/)
 * [Text Alignment in Markdown](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
+* [How to add Tab Space in Markdown](https://stackoverflow.com/questions/44810511/how-to-add-empty-spaces-into-md-markdown-readme-on-github)
 
