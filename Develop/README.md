@@ -240,5 +240,5 @@ http://www.apache.org/licenses/ </p>
   
   If you have any additional questions please send them via my email listed below. <br>
   <br>
-  GitHub: https://github.com/E-Burton &emsp Email: edwina.anotoinette@gmail.com
+  GitHub: https://github.com/E-Burton &emsp; Email: edwina.anotoinette@gmail.com
 
