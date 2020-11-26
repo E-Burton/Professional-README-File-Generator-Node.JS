@@ -51,4 +51,5 @@ The following video demonstrates the functionality of the README generator:
 * [Markdown Licenses Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
 * [Require File as String](https://stackoverflow.com/questions/12752622/require-file-as-string)
 * [`path.resolve()` Method](https://www.geeksforgeeks.org/node-js-path-resolve-method/)
+* [Text Alignment in Markdown](https://stackoverflow.com/questions/14051715/markdown-native-text-alignment)
 

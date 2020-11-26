@@ -24,9 +24,11 @@
   
   ## License
   
-<p align="center"> Apache License </p>
-<p align="center"> Version 2.0, January 2004 </p>
-<p align="center"> http://www.apache.org/licenses/ </p>
+<p align="center"> 
+Apache License <br>
+Version 2.0, January 2004 <br>
+http://www.apache.org/licenses/ </p>
+<p align="center"> </p>
 
 <p align="center"> TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION </p>
 
@@ -199,7 +201,7 @@
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
-END OF TERMS AND CONDITIONS {align:center}
+<p align="center"> END OF TERMS AND CONDITIONS </P>
 
    APPENDIX: How to apply the Apache License to your work.
 
@@ -218,7 +220,7 @@ END OF TERMS AND CONDITIONS {align:center}
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+      http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -238,5 +240,5 @@ END OF TERMS AND CONDITIONS {align:center}
   
   If you have any additional questions please send them via my email listed below. <br>
   <br>
-  GitHub: https://github.com/E-Burton  [tab][space] Email: edwina.anotoinette@gmail.com
+  GitHub: https://github.com/E-Burton &emsp Email: edwina.anotoinette@gmail.com
 
