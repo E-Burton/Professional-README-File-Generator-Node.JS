@@ -34,9 +34,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Video Walkthrough 
 
-The following video demonstrates the functionality of the README generator:
-
-![Generator Demo](./Assets/readme-generator.mov)
+[Click]( https://drive.google.com/file/d/1A8yzQdeZR5FBTlncz1T9VboOQKDs9bpT/view?usp=sharing) to see a video demonstrating the functionality of the README generator.
 
 ## Tools Implemented
 
