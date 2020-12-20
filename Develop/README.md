@@ -2,7 +2,7 @@
 
   ## Description
   
-  This a command-line application that accepts user input and creates a README.md file for new projects.
+  This is a command-line application that accepts user input and creates a README.md file for new projects.
 
   ## Table of Contents
 
@@ -16,7 +16,7 @@
 
   ## Installation
 
-  `npm install inquirer`
+  `npm install inquirer`
 
   ## Usage
 
@@ -24,12 +24,12 @@
   
   ## License
   
-<p align="center"> 
+  <p align="center"> 
 Apache License <br>
 Version 2.0, January 2004 <br>
 http://www.apache.org/licenses/ </p>
 
-<p align="center"> TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION </p>
+<p align="center">TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION </p>
 
    1. Definitions.
 
@@ -200,7 +200,7 @@ http://www.apache.org/licenses/ </p>
       incurred by, or claims asserted against, such Contributor by reason
       of your accepting any such warranty or additional liability.
 
-<p align="center"> END OF TERMS AND CONDITIONS </P>
+<p align="center">END OF TERMS AND CONDITIONS </p>
 
    APPENDIX: How to apply the Apache License to your work.
 
@@ -219,7 +219,7 @@ http://www.apache.org/licenses/ </p>
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-      http://www.apache.org/licenses/LICENSE-2.0
+       http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -239,5 +239,5 @@ http://www.apache.org/licenses/ </p>
   
   If you have any additional questions please send them via my email listed below. <br>
   <br>
-  GitHub: https://github.com/E-Burton &emsp; Email: edwina.anotoinette@gmail.com
+  GitHub: https://github.com/E-Burton 	 Email: edwina.antoinette@gmail.com
 
