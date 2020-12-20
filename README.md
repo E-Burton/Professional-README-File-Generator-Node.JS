@@ -36,6 +36,8 @@ THEN I am taken to the corresponding section of the README
 
 The following video demonstrates the functionality of the README generator:
 
+![Generator Demo](./Assets/readme-generator.mov)
+
 ## Tools Implemented
 
 * JavaScript
