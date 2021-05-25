@@ -42,8 +42,6 @@ THEN I am taken to the corresponding section of the README
 * Node.js
 * Inquirer
 
-## Challenges
-
 ## Additional Resources used for Finished Application
 
 * [Getting Started with Markdown](https://github.com/fefong/markdown_readme)
