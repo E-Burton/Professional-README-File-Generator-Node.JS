@@ -1,4 +1,4 @@
-# Professional-README-File-Generator-Node.JS
+# Professional README File Generator with NodeJS
 
 ## Objective
 
